@@ -22,6 +22,7 @@ class BookDatabaseOpenHelper(context: Context) :
         onCreate(db)
     }
 
+
     companion object {
         private const val DB_NAME = "book-f.db"
         private const val DB_VERSION = 1
